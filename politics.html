@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>الأخبار السياسية - مئاب الإخبارية</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top" id="main-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo.png" alt="شعار مئاب الإخبارية">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link active" href="politics.html">السياسة</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">نبذة عنا</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">تواصل معنا</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="bg-dark text-white py-5 text-center">
+    <div class="container">
+      <h1 class="fw-bold">الأخبار السياسية</h1>
+      <p class="text-secondary">تحليل وتغطية شاملة لأهم الأحداث السياسية المحلية والعالمية</p>
+    </div>
+  </header>
+
+  <!-- News Section -->
+  <div class="container my-5">
+    <div class="row">
+      <!-- Article Card -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card news-card h-100">
+          <img src="https://placehold.co/600x400/f44336/ffffff?text=خبر+سياسي+1" class="card-img-top" alt="خبر سياسي 1">
+          <span class="badge bg-danger">سياسة</span>
+          <div class="card-body">
+            <h5 class="card-title">اجتماع طارئ لمجلس الأمن لمناقشة التطورات الأخيرة</h5>
+            <p class="card-text">الأمم المتحدة تعقد جلسة عاجلة لبحث الأوضاع الراهنة بعد تصاعد التوترات بين عدة دول مؤثرة في المنطقة.</p>
+          </div>
+          <div class="card-footer text-muted"><i class="fa-regular fa-clock me-2"></i> قبل ساعة</div>
+        </div>
+      </div>
+
+      <!-- Article Card -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card news-card h-100">
+          <img src="https://placehold.co/600x400/212529/ffffff?text=خبر+سياسي+2" class="card-img-top" alt="خبر سياسي 2">
+          <span class="badge bg-danger">سياسة</span>
+          <div class="card-body">
+            <h5 class="card-title">البرلمان يصادق على قانون جديد ينظم العمل الحزبي</h5>
+            <p class="card-text">القانون يهدف إلى تعزيز الشفافية والمساءلة داخل الأحزاب السياسية وتشجيع المشاركة الشبابية.</p>
+          </div>
+          <div class="card-footer text-muted"><i class="fa-regular fa-clock me-2"></i> قبل ساعتين</div>
+        </div>
+      </div>
+
+      <!-- Article Card -->
+      <div class="col-lg-4 col-md-6 mb-4">
+        <div class="card news-card h-100">
+          <img src="https://placehold.co/600x400/e74c3c/ffffff?text=خبر+سياسي+3" class="card-img-top" alt="خبر سياسي 3">
+          <span class="badge bg-danger">سياسة</span>
+          <div class="card-body">
+            <h5 class="card-title">رئيس الوزراء يعلن عن خطة إصلاحات سياسية شاملة</h5>
+            <p class="card-text">الخطة تتضمن تعديل القوانين الانتخابية وتحسين آليات الشفافية في إدارة العملية السياسية.</p>
+          </div>
+          <div class="card-footer text-muted"><i class="fa-regular fa-clock me-2"></i> قبل 3 ساعات</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Pagination -->
+    <nav class="d-flex justify-content-center mt-4">
+      <ul class="pagination">
+        <li class="page-item disabled"><a class="page-link" href="#">السابق</a></li>
+        <li class="page-item active"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item"><a class="page-link" href="#">التالي</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <!-- Footer -->
+  <footer class="pt-5 pb-4">
+    <div class="container text-center text-md-end">
+      <p class="mb-0">&copy; <span id="year"></span> جميع الحقوق محفوظة لـ <strong class="text-warning">مئاب الإخبارية</strong></p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>sports

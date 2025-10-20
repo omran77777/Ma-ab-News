@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>عنوان الخبر - مئاب الإخبارية</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Alexandria:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="مئاب الإخبارية"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mx-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">الرئيسية</a></li>
+          <li class="nav-item"><a class="nav-link" href="politics.html">سياسة</a></li>
+          <li class="nav-item"><a class="nav-link" href="sports.html">رياضة</a></li>
+          <li class="nav-item"><a class="nav-link" href="economy.html">اقتصاد</a></li>
+          <li class="nav-item"><a class="nav-link" href="art.html">فن وثقافة</a></li>
+          <li class="nav-item"><a class="nav-link" href="health.html">صحة</a></li>
+          <li class="nav-item"><a class="nav-link" href="tech.html">تقنية</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Article Header -->
+  <header class="bg-dark text-white py-5">
+    <div class="container text-center">
+      <h1 class="fw-bold">عنوان الخبر الرئيسي هنا</h1>
+      <p class="text-secondary"><i class="fas fa-user-edit me-2"></i>بواسطة: فريق التحرير <i class="fas fa-clock ms-3 me-2"></i> 15 دقيقة مضت</p>
+    </div>
+  </header>
+
+  <!-- Article Content -->
+  <div class="container my-5">
+    <div class="row">
+      <div class="col-lg-8 mx-auto">
+        <img src="https://placehold.co/800x450/cccccc/212529?text=صورة+الخبر" class="img-fluid rounded mb-4" alt="صورة الخبر">
+
+        <p>
+          هذا هو نص المقال التفصيلي للخبر. يمكن أن يحتوي على عدة فقرات، معلومات موسعة، اقتباسات، وإحصائيات هامة لجذب القارئ وإبقائه مهتماً بمتابعة التفاصيل الكاملة للخبر.
+        </p>
+
+        <p>
+          يمكن إضافة عناصر وسائط متعددة مثل الصور، الفيديوهات، والجداول لتوضيح الأخبار بشكل أفضل. كذلك يمكن وضع روابط داخلية لمقالات ذات صلة لزيادة تفاعل المستخدمين.
+        </p>
+
+        <h3 class="mt-4">عنوان فرعي داخل المقال</h3>
+        <p>
+          نص تفصيلي إضافي يشرح الخبر من زاوية جديدة، مع تفاصيل دقيقة وتفسير الأحداث، ومعلومات داعمة، أو تصريحات من مصادر رسمية.
+        </p>
+
+        <h3 class="mt-4">خاتمة المقال</h3>
+        <p>
+          نص الخاتمة يقدم ملخصاً للخبر، التوصيات أو التداعيات المستقبلية للأحداث، ويشجع القارئ على متابعة الموقع لمزيد من الأخبار المحدثة.
+        </p>
+
+        <!-- Social Share -->
+        <div class="mt-4">
+          <h6>شارك الخبر:</h6>
+          <a href="#" class="btn btn-primary me-2"><i class="fab fa-facebook-f"></i> فيسبوك</a>
+          <a href="#" class="btn btn-info me-2"><i class="fab fa-twitter"></i> تويتر</a>
+          <a href="#" class="btn btn-danger"><i class="fab fa-whatsapp"></i> واتساب</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="pt-5 pb-4">
+    <div class="container text-center text-md-end">
+      <p class="mb-0">&copy; <span id="year"></span> جميع الحقوق محفوظة لـ <strong class="text-warning">مئاب الإخبارية</strong></p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+      document.getElementById("year").textContent = new Date().getFullYear();
+      
+      </script>
+</body>
+</html>
